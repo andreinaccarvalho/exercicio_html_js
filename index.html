@@ -12,10 +12,12 @@
         <form id="form-comparacao">
             <input type="number" id="num1" required placeholder="Insira o número A" />
             <input type="number" id="num2" required placeholder="Insira o número B" />
-            <button id="btn-depositar" type="submit">Depositar os números</button>
+            <p class="error-message">
+                O valor do número B precisa ser maior que o valor do número A!
+            </p>
+            <button type="submit">Validar os números</button>
         </form>
         <p class="success-message"></p>
-        <p class="error-message"></p>
     </div>
     <script src="./main.js"></script>
 </body>

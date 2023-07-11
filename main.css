@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body {
+    display: block;
+}
+
 .container {
     margin: 80px auto;
     max-width: 640px;
@@ -52,10 +56,4 @@ button:hover {
     color: #fff;
     margin-bottom: 8px;
     display: none;
-}
-
-input.error {
-    color: red;
-    border-color: red;
-    outline-color: red;
 }
